@@ -1,0 +1,198 @@
+li {
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+
+}
+
+
+.hd-wrap-right {
+    margin-top: 16px;
+    float: right;
+    font-size: small;
+    display: block;
+}
+
+.header-top {
+    padding: 30px 0px 10px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-search-button {
+    background: url('https://webimg.jestina.co.kr/UpData/jestina/j_mall/assets/img/btns/search__btn.png') no-repeat 0 center;
+    width: 19px;
+    height: 19px;
+    border: none;
+    background-size: cover;
+}
+
+.hd-top-wrap-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-search-input {
+    border: none;
+    padding-bottom: 9px;
+    width: 200px;
+}
+
+.header-search-form {
+    border-bottom: 2px solid #FFB2B8;
+}
+
+.header-search-input:focus {
+    outline: none;
+}
+
+.header {
+    position: relative;
+    display: block;
+    min-width: 1366px;
+    background-color: rgba(255, 255, 255, 0.9)
+}
+.header-wrap{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header-list-type {
+    display: inline-block;
+    padding: 0px;
+}
+
+.header-bot {
+    display: block;
+    font-weight: bold;
+    font-size: large;
+    line-height: 18px;
+    height: 50px;
+    clear: both;
+
+}
+
+.hd-top-search {
+    display: inline-block;
+}
+
+.header-inner {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 18px;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    height: 300px;
+    padding-inline-start: 0px;
+
+}
+
+.dropdown-menu li {
+    display: block;
+    clear: both;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: normal;
+    color: black;
+
+}
+
+.dropdown-menu li:hover {
+    color: #FFB2B8;
+}
+
+.dropdown-menu-item-wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.example-product-header {
+    top: 20px;
+    display: none;
+    position: absolute;
+    right: 0px;;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+.dropdown-menu-item:hover .example-product-header {
+    display: flex;
+}
+
+.top-sold-item {
+    height: 250px;
+}
+
+.type:hover .dropdown-menu {
+
+    display: block;
+    margin-top: 12px;
+
+
+}
+
+.type:hover {
+    color: #FFB2B8;
+    border-bottom: 2px solid pink;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.collection-link {
+    text-decoration: none;
+    color: black;
+}
+
+.collection-link:hover {
+    text-decoration: none;
+    color: #FFB2B8;
+}
+
+.header:hover .header-bot {
+    border-top: 2px solid #FFB2B8;
+}
+
+.header-bot-right {
+    font-weight: normal;
+}
+
+.header-bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wishlist-icon {
+    padding-right: 5px;
+    width: 14px;
+    height: 12px;
+    display: inline-block;
+    background: url("https://webimg.jestina.co.kr/UpData/jestina_2019/icon/icon_whishlist.png") 0 0 no-repeat
+}
+
+.cart-icon {
+    padding-right: 5px;
+    width: 16px;
+    height: 14px;
+    display: inline-block;
+    background: url("https://webimg.jestina.co.kr/UpData/jestina_2019/icon/icon_cart.png") 0 0 no-repeat
+}
+.new-jewelry-content-footer-column-title{
+    text-align: center;
+}
