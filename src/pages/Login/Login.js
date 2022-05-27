@@ -41,7 +41,9 @@ function Login() {
             </div>
             <input type="submit" className="login-input new-login-login-btn" value="Đăng nhập"></input>
             
-            <input type="button" value='Đăng kí' className="login-input new-login-register-btn"/>
+            <Link to={"/register"} className="login-input new-login-register-btn">
+              Đăng kí
+            </Link>
           </form>
         </div>
       </div>

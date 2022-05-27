@@ -1,0 +1,28 @@
+.new-cart{
+    width: 80%;
+    margin: 0 auto;
+}
+.new-cart-title{
+    margin: 20px 0px 20px 0px;
+}
+.new-cart-content{
+    display: flex;
+}
+.new-cart-list-order-item{
+    width: 70%;
+    height: 400px;
+    border: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-cart-empty-btn-home{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFb1b8;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}

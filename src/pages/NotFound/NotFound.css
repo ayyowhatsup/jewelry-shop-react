@@ -1,0 +1,31 @@
+.new-page-not-found{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.new-page-not-found-wrapper{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.new-page-not-found-inner{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+.new-page-not-found-navigate{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.new-page-not-found-navigate-back{
+    background-color: white;
+    border: 1px solid #e2e2e2;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}

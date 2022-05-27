@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { } from "./Header.css";
-import jieunie_logo from "./jieunie_logo.png";
-
 function Header() {
 
   const [categories, setCategories] = useState([])
@@ -14,6 +12,15 @@ function Header() {
       })
   }, [])
 
+  const [collections, setCollections] = useState([])
+  useEffect(() => {
+    fetch('http://localhost:3000/collection')
+      .then(res => res.json())
+      .then(collections => {
+        setCollections(collections)
+      })
+  }, [])
+
   return (
     <header className="header-wrap">
       <div className="header">
@@ -22,13 +29,12 @@ function Header() {
             <div className="hd-top-wrap-left">
               <h1 className="logo">
                 <a href="/">
-                  <img src={jieunie_logo} alt="" />
+                  <img src={process.env.PUBLIC_URL + "/jieunie_logo.png"} alt="" />
                 </a>
               </h1>
               <div className="hd-top-search">
                 <form className="header-search-form">
                   <input className="header-search-input" type="text" />
-
                   <button className="header-search-button" type="submit"></button>
                 </form>
               </div>
@@ -73,7 +79,7 @@ function Header() {
                   {categories.map(category => (
                     <div key={category.id} className="dropdown-menu-item-wrap">
                       <li className="dropdown-menu-item">
-                        <Link className="collection-link" to={`/collection/${category.id}`}>
+                        <Link className="collection-link" to={`jewelry-category/${category.id}`}>
                           {category.name}
                         </Link>
                         <div className="example-product-header">
@@ -92,18 +98,11 @@ function Header() {
                 BỘ SƯU TẬP
                 <ul className="dropdown-menu">
                   <div className="dropdown-menu-item-wrap">
-                    {/* <li>
-                      <a className="collection-link">Jieunie Best Pick</a>
-                    </li>
-                    <li>
-                      <a className="collection-link">Jieunie Signature</a>
-                    </li>
-                    <li>
-                      <a className="collection-link">Valentine's Day</a>
-                    </li>
-                    <li>
-                      <a className="collection-link">Timeless</a>
-                    </li> */}
+                    {collections.map((collection) => (
+                      <li key={collection.id}>
+                        <Link to={`/collection/${collection.id}`} className="collection-link">{collection.name}</Link>
+                      </li>
+                    ))}
                   </div>
                 </ul>
               </li>

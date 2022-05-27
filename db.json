@@ -830,5 +830,372 @@
         }
       ]
     }
+  ],
+  "collection": [
+    {
+      "id": "the-best-collection",
+      "name": "The BEST Collection",
+      "image": "https://firebasestorage.googleapis.com/v0/b/instantmessages-c52b8.appspot.com/o/images%2F20220513154126.jpg?alt=media&token=b7334837-4cd8-46aa-b55b-ba5d76c8a107",
+      "description": "",
+      "items": [
+        {
+          "id": 1,
+          "name": "J è te 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210618100657ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 7190000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 11,
+          "name": "Bông tai 14K THE J",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220513090510ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 7990000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 3,
+          "name": "J è te 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210618112235ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 6490000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 5,
+          "name": " J.Livera 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220513091458ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092526ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 8490000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2022-hip-summer",
+      "name": "2022 HIP SUMMER",
+      "image": "https://firebasestorage.googleapis.com/v0/b/instantmessages-c52b8.appspot.com/o/images%2F20220512172651.jpg?alt=media&token=31b5a541-dbca-4172-a999-f16773fa63a8",
+      "description": "",
+      "items": [
+        {
+          "id": 1,
+          "name": "J è te 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210618100657ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 7190000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 11,
+          "name": "Bông tai 14K THE J",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220513090510ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 7990000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 3,
+          "name": "J è te 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210618112235ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 6490000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 5,
+          "name": " J.Livera 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220513091458ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092526ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 8490000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        }
+      ]
+    },
+    {
+      "id": "happy-j-week",
+      "name": "Happy J.Week",
+      "image": "https://firebasestorage.googleapis.com/v0/b/instantmessages-c52b8.appspot.com/o/images%2F20220509093212.jpg?alt=media&token=b562b34c-29f5-4b37-bdf9-8eb0680b3f3c",
+      "description": "",
+      "items": [
+        {
+          "id": 1,
+          "name": "J è te 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210618100657ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 7190000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 11,
+          "name": "Bông tai 14K THE J",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220513090510ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 7990000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 3,
+          "name": "J è te 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210618112235ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 6490000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 5,
+          "name": " J.Livera 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220513091458ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092526ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 8490000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gift-for-lovers",
+      "name": "Gift for Lovers",
+      "image": "https://firebasestorage.googleapis.com/v0/b/instantmessages-c52b8.appspot.com/o/images%2F20220429163613.jpg?alt=media&token=1c89cfd3-45d1-4f52-9610-6c7b4cd7c037",
+      "description": "",
+      "items": [
+        {
+          "id": 1,
+          "name": "J è te 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210618100657ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 7190000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 11,
+          "name": "Bông tai 14K THE J",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220513090510ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 7990000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 3,
+          "name": "J è te 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210618112235ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 6490000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 5,
+          "name": " J.Livera 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220513091458ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092526ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 8490000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        }
+      ]
+    },
+    {
+      "id": "happy-married",
+      "name": "Happy Married",
+      "image": "https://firebasestorage.googleapis.com/v0/b/instantmessages-c52b8.appspot.com/o/images%2F20220512182453.jpg?alt=media&token=3e6720a3-6a7a-454f-ab72-504d62417544",
+      "description": "",
+      "items": [
+        {
+          "id": 1,
+          "name": "J è te 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210618100657ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 7190000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 11,
+          "name": "Bông tai 14K THE J",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220513090510ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 7990000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 3,
+          "name": "J è te 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210618112235ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 6490000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        },
+        {
+          "id": 5,
+          "name": " J.Livera 14K Bracelet",
+          "image": [
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220513091458ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092526ZM.jpg",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
+            "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
+          ],
+          "size": [48, 50, 52, 54],
+          "price": 8490000,
+          "description": {
+            "material": "Gold 14K",
+            "color": "Vàng ánh kim",
+            "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang nhã, tinh tế, đừng bỏ qua chiếc nhẫn Sparkling Pear & Marquise Wishbone. Được hoàn thiện thủ công với bạc hợp kim, thiết kế của chiếc nhẫn dáng xương đòn này được lấy cảm hứng từ thẩm mỹ của bộ sưu tập Pandora Wish. Những viên đá Cubic Zirconia sáng lấp lánh được gắn vào khung chữ V, mang đến cảm giác như chúng đang bồng bềnh trên thân nhẫn. Hãy kết hợp chiếc nhẫn này với những mẫu trang sức bạc hợp kim khác từ Pandora để tạo ra một bộ sưu tập hoàn chỉnh."
+          }
+        }
+      ]
+    }
   ]
 }

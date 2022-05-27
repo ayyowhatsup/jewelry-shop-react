@@ -3,17 +3,16 @@ import { Link, useParams } from 'react-router-dom'
 import { } from './Collection.css'
 
 
-function Collection() {
+function Collection(props) {
     const { collectionId } = useParams()
-    const [collection, setCollection] = useState({})
+    const [collection, setCollection] = useState({items:[]})
     const [items, setItems] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:3000/jewelryCategory/${collectionId}`)
+        fetch(`http://localhost:3000/${props.type}/${collectionId}`)
             .then(res => {
                 if (res.ok) {
                     return res.json()
                 }
-                throw new Error('some thing went wrong')
             })
             .then(collection => {
                 setCollection(collection)
@@ -37,7 +36,7 @@ function Collection() {
                             <span style={{ marginRight: "10px" }}>{">"}</span>
                             <span>{collection.name}</span>
                         </div>
-                        <h1 className='collection-name'>{collection.name}</h1>
+                        <h1 className='collection-name'>{collection.name}<span style={{fontWeight:'normal', fontSize: 'small'}}>({collection.items.length})</span></h1>                      
                         <p>{collection.description}</p>
                     </div>
                 </div>
