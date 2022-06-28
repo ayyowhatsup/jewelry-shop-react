@@ -1,8 +1,27 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import {} from "./Login.css";
+import UserContext from "./../../UserContext"
 
 function Login() {
   const navigate = useNavigate();
+  const location = useLocation()
+
+  let from = location.state?.from?.pathname || "/"
+  const auth = useContext(UserContext)
+
+
+  const handleLogin = (e) => {
+    e.preventDefault()
+    let email = document.getElementById("email").value
+    let password = document.getElementById("password").value
+    
+
+    auth.signIn(email,password,() =>{
+      navigate(from, { replace: true });
+    })
+  }
+
   return (
     <div className="new-login">
       <div className="new-login-header">
@@ -33,9 +52,9 @@ function Login() {
             ></div>
             <h1 style={{display:'inline', textAlign:'center',flex:1}}>ĐĂNG NHẬP</h1>
           </div>
-          <form className="login-form">
-            <input className='login-input' type="text" placeholder="Vui lòng nhập email"></input>
-            <input className='login-input' type="password" placeholder="Vui lòng nhập mật khẩu"></input>
+          <form onSubmit={handleLogin} className="login-form">
+            <input className='login-input' type="text" placeholder="Vui lòng nhập email" id="email"></input>
+            <input className='login-input' type="password" placeholder="Vui lòng nhập mật khẩu" id="password"></input>
             <div>
               <div style={{float:'right',marginBottom:'15px'}}>Quên mật khẩu</div>
             </div>

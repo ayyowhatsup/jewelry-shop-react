@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": {
+        "firstname": "Dung",
+        "lastname": "Le"
+      },
+      "gender": "male",
+      "dob": "2001-01-01",
+      "address": {
+        "city": "Hanoi",
+        "district": "Ha Dong",
+        "village": "",
+        "street": "",
+        "number": ""
+      },
+      "email": "dung@gmail.com",
+      "phonenumber": "0123456789",
+      "password": 123456
+    },
+    {
+      "name": {
+        "firstname": "",
+        "lastname": ""
+      },
+      "gender": "male",
+      "dob": "2001-01-01",
+      "email": "",
+      "phoneNumber": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": {
+        "firstname": "Dung",
+        "lastname": "Nguyen"
+      },
+      "gender": "male",
+      "dob": "2001-01-02",
+      "email": "dungnguyen@gmail.com",
+      "phonenumber": "0011223344",
+      "password": "123456",
+      "createdAt": 1656411646380,
+      "id": 3
+    }
+  ]
+}

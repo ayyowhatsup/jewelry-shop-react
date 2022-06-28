@@ -1,11 +1,17 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useContext, useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import CartContext from "../../CartContext";
 import { } from "./Header.css";
+import { API_URL } from './../../const'
+import UserContext from "../../UserContext";
 function Header() {
+
+  const auth = useContext(UserContext)
+  const navigate = useNavigate()
 
   const [categories, setCategories] = useState([])
   useEffect(() => {
-    fetch('http://localhost:3000/jewelryCategory')
+    fetch(API_URL + '/jewelryCategory')
       .then(res => res.json())
       .then(categories => {
         setCategories(categories)
@@ -14,13 +20,14 @@ function Header() {
 
   const [collections, setCollections] = useState([])
   useEffect(() => {
-    fetch('http://localhost:3000/collection')
+    fetch(API_URL + '/collection')
       .then(res => res.json())
       .then(collections => {
         setCollections(collections)
       })
   }, [])
 
+  const { cart } = useContext(CartContext)
   return (
     <header className="header-wrap">
       <div className="header">
@@ -28,9 +35,9 @@ function Header() {
           <div className="header-top">
             <div className="hd-top-wrap-left">
               <h1 className="logo">
-                <a href="/">
+                <Link to="/">
                   <img src={process.env.PUBLIC_URL + "/jieunie_logo.png"} alt="" />
-                </a>
+                </Link>
               </h1>
               <div className="hd-top-search">
                 <form className="header-search-form">
@@ -41,21 +48,46 @@ function Header() {
             </div>
             <div className="hd-wrap-right">
               <ul>
+                {auth.user === null ?
+                  <li>
+                    <Link className="collection-link" to="/login" title="Đăng nhập">
+                      ĐĂNG NHẬP
+                    </Link>
+                  </li>
+                  : <></>
+                }
+                
                 <li>
-                  <Link className="collection-link" to="/login" title="Đăng nhập">
-                    ĐĂNG NHẬP
-                  </Link>
-                </li>
-                <li>
-                  <Link className="collection-link" to="/login" title="Đăng nhập">
+                  <Link className="collection-link" to="/account" title="Cá nhân">
                     CÁ NHÂN
                   </Link>
                 </li>
                 <li>
-                  <Link className="collection-link" to="/login" title="Đăng nhập">
+                  <Link className="collection-link" to="/" title="Trung tâm trợ giúp">
                     TRUNG TÂM TRỢ GIÚP
                   </Link>
                 </li>
+                {auth.user !== null ?
+                  <li>
+                    <Link className="collection-link" to="/">
+                      Xin chào, {auth.user.name.firstname}
+                    </Link>
+                  </li>
+                  : <></>
+                }
+                {auth.user !== null ?
+                  <li>
+                    <div className="collection-link" onClick={(e) =>{
+                      auth.signOut(()=>{
+                        navigate("/")
+                      })
+                    }}>
+                      Đăng xuất
+                    </div>
+                  </li>
+                  : <></>
+                }
+
                 <li className="wishlist">
                   <Link className="collection-link" to="/myfavorite">
                     <i className="wishlist-icon"></i>
@@ -65,7 +97,7 @@ function Header() {
                 <li>
                   <Link className="collection-link" to="/cart">
                     <i className="cart-icon"></i>
-                    <span>0</span>
+                    <span>{cart.reduce((prev, curr) => prev + curr.quantity, 0)}</span>
                   </Link>
                 </li>
               </ul>

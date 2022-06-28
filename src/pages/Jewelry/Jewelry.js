@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
+import CartContext from "../../CartContext";
 import {} from "./Jewelry.css";
-
+import {API_URL} from './../../const'
 function Jewelry() {
   const { jewelryId } = useParams();
   const [item, setItem] = useState({ description: [], image: [], size: [] });
@@ -9,9 +10,9 @@ function Jewelry() {
   const [imageIndex, setImageIndex] = useState(1);
 
   const [sizeIndex, setSizeIndex] = useState(0);
-
+  const {addToCart} = useContext(CartContext)
   useEffect(() => {
-    fetch(`http://localhost:3000/jewelry/${jewelryId}`)
+    fetch(API_URL+`/jewelry/${jewelryId}`)
       .then((res) => res.json())
       .then((item) => {
         setItem(item);
@@ -119,7 +120,7 @@ function Jewelry() {
                 <i className="wishlist-icon"></i>
                 <span>Thêm vào yêu thích</span>
               </div>
-              <div className="new-jewelry-content-payment-add-cart">
+              <div onClick={() => addToCart(parseInt(jewelryId),item.size[sizeIndex],1)} className="new-jewelry-content-payment-add-cart">
                 <i className="cart-icon"></i>
                 <span>Thêm vào giỏ hàng</span>
               </div>

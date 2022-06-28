@@ -1,12 +1,46 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import { } from './Register.css'
-
 function Register() {
     const navigate = useNavigate()
-
+    const [firstName, setFirstName] = useState("")
+    const [lastName, setLastName] = useState("")
+    const [email, setEmail] = useState("")
+    const [phoneNumber, setPhoneNumber] = useState("")
+    const [passWord, setPassWord] = useState("")
     const [gender, setGender] = useState(0)
+
     const [dateOfBirth, setDateOfBirth] = useState('2001-01-01')
+
+    const handleRegister = (e) => {
+        e.preventDefault();
+        let data = {
+            name: {
+                firstname: firstName,
+                lastname: lastName,
+            },
+            gender: gender === 0 ? "male" : "female",
+            dob: dateOfBirth,
+            email: email,
+            phonenumber: phoneNumber,
+            password: passWord,
+        }
+        fetch("http://localhost:3000/user/users", {
+            method: 'POST',
+
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        }).then(response => response.json())
+        .then(data =>
+            {
+                console.log(data)
+                navigate("/login")
+            } 
+        )
+    }
+
     return (
 
         <div className="new-register">
@@ -38,23 +72,23 @@ function Register() {
                         ></div>
                         <h1 style={{ display: 'inline', textAlign: 'center', flex: 1 }}>ĐĂNG KÝ</h1>
                     </div>
-                    <form className="login-form">
-                        <input className='login-input' type="text" placeholder="Tên"></input>
-                        <input className='login-input' type="text" placeholder="Họ"></input>
+                    <form onSubmit={handleRegister} className="login-form">
+                        <input className='login-input' onChange={(e) => setFirstName(e.target.value)} type="text" placeholder="Tên"></input>
+                        <input className='login-input' onChange={(e) => setLastName(e.target.value)} type="text" placeholder="Họ"></input>
                         <div className='gender-input'>
-                            <input type='radio' checked={gender===0} id='male' onChange={() => setGender(0)}></input>
+                            <input type='radio' checked={gender === 0} id='male' onChange={() => setGender(0)}></input>
                             <label htmlFor='male'>Nam</label>
-                            <input type='radio' checked={gender===1} id='female' onChange={() => setGender(1)}></input>
+                            <input type='radio' checked={gender === 1} id='female' onChange={() => setGender(1)}></input>
                             <label htmlFor='male'>Nữ</label>
                         </div>
                         <div className='login-input register-dob'>
-                        <label htmlFor='register-dob-input'>Ngày sinh:</label>
+                            <label htmlFor='register-dob-input'>Ngày sinh:</label>
                             <input type="date" value={dateOfBirth} onChange={(e) => setDateOfBirth(e.target.value)} id='register-dob-input'></input>
                         </div>
-                        <input className='login-input' type="text" placeholder="Email"></input>
-                        <input className='login-input' type="text" placeholder="Số điện thoại"></input>
-                        <input className='login-input' type="password" placeholder="Mật khẩu"></input>
-                        
+                        <input className='login-input' type="text" onChange={(e) => setEmail(e.target.value)} placeholder="Email"></input>
+                        <input className='login-input' type="text" onChange={(e) => setPhoneNumber(e.target.value)} placeholder="Số điện thoại"></input>
+                        <input className='login-input' type="password" onChange={(e) => setPassWord(e.target.value)} placeholder="Mật khẩu"></input>
+
                         <input type="submit" className="login-input new-login-register-btn" value="Đăng ký"></input>
 
                     </form>

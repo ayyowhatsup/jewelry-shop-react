@@ -1,3 +1,8 @@
+.new-jewelry li{
+    list-style-type: none;
+    margin-right: 20px;;
+}
+
 .new-jewelry-content-wrapper {
     margin: 0 auto;
     width: 60%;
@@ -16,6 +21,7 @@
 
 .new-jewelry-content-footer-column-detail {
     text-align: justify;
+    font-size: 14px;
 
 }
 
@@ -88,7 +94,7 @@
     width: fit-content;
     padding: 5px;
     box-sizing: border-box;
-    background-color: #FFB2B8;
+    background-color: var(--main-color);
     
 }
 .new-jewelry-content-payment-header-price-wrapper{
@@ -102,7 +108,7 @@
     justify-content: space-around;
 }
 .new-jewelry-content-payment-add-cart{
-    background-color: #FFB2B8;
+    background-color: var(--main-color);
     color: white;
     display: flex;
     align-items: center;

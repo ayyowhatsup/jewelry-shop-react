@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { } from './Collection.css'
-
+import {API_URL} from './../../const'
 
 function Collection(props) {
     const { collectionId } = useParams()
     const [collection, setCollection] = useState({items:[]})
     const [items, setItems] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:3000/${props.type}/${collectionId}`)
+        fetch(API_URL+`/${props.type}/${collectionId}`)
             .then(res => {
                 if (res.ok) {
                     return res.json()

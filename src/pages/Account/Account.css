@@ -1,0 +1,56 @@
+.new-account-wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.h1 h1{
+    margin: 0 auto;
+    width: fit-content;
+    border-bottom: 8px solid var(--main-color);
+    padding-bottom: 10px;
+}
+.new-account-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.new-account-nav{
+    width: 30%;
+}
+.new-account-nav li{
+    margin-bottom: 20px;
+}
+.new-account-content{
+    width: 65%;
+}
+.new-account-content h3{
+    border-bottom: 4px solid var(--main-color);
+    padding-bottom: 5px;
+}
+.new-account-info div{
+    margin-bottom: 10px;
+}
+
+.new-account-order{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.new-account-title{
+    font-weight: bold;
+}
+.new-account-order-id{
+    width: 15%;
+    text-align: left;
+}
+.new-account-order-date{
+    width: 25%;
+    text-align: center;
+}
+.new-account-order-price{
+    width: 25%;
+    text-align: center;
+}
+.new-account-order-status{
+    width: 25%;
+    text-align: right;
+}

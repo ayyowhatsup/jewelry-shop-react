@@ -1,4 +1,37 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "name": {
+        "firstname": "Dung",
+        "lastname": "Le"
+      },
+      "gender": "male",
+      "dob": "2001-01-01",
+      "address": {
+        "city": "Hanoi",
+        "district": "Ha Dong",
+        "village": "",
+        "street": "",
+        "number": ""
+      },
+      "email": "dung@gmail.com",
+      "phonenumber": "0123456789",
+      "password": "123456"
+    },
+    {
+      "name": {
+        "firstname": "",
+        "lastname": ""
+      },
+      "gender": "male",
+      "dob": "2001-01-01",
+      "email": "",
+      "phoneNumber": "",
+      "password": "",
+      "id": 2
+    }
+  ],
   "jewelry": [
     {
       "id": 1,
@@ -8,7 +41,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 7190000,
       "description": {
         "material": "Gold 14K",
@@ -24,7 +62,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000023900/20210205115907ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000023900/20210205120143ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 6190000,
       "description": {
         "material": "Gold 14K",
@@ -40,7 +83,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 6490000,
       "description": {
         "material": "Gold 14K",
@@ -57,7 +105,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000025082/20220311093607ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000025082/20220311093608ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 7490000,
       "description": {
         "material": "Gold 14K",
@@ -74,7 +127,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 8490000,
       "description": {
         "material": "Gold 14K",
@@ -90,7 +148,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000022471/20200114093223ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000022471/20200115103941ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 4490000,
       "description": {
         "material": "Gold 14K",
@@ -106,7 +169,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024761/20211007135114ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000024761/20211007150140ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 5090000,
       "description": {
         "material": "Gold 14K",
@@ -122,7 +190,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20210812111447ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20211112093451ZM.jpg"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 9090000,
       "description": {
         "material": "Gold 14K",
@@ -138,7 +211,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20210812111447ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20211112093451ZM.jpg"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 9090000,
       "description": {
         "material": "Gold 14K",
@@ -154,7 +232,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20210812111447ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20211112093451ZM.jpg"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 9090000,
       "description": {
         "material": "Gold 14K",
@@ -170,7 +253,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
         "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 7990000,
       "description": {
         "material": "Gold 14K",
@@ -185,7 +273,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000025094/20220513091734ZM.jpg",
         "https://webimg.jestina.co.kr/UpData2/item/G2000025094/20220317144321ZM.jpg"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 10090000,
       "description": {
         "material": "Gold 14K",
@@ -201,7 +294,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000025104/20220321143920ZM.jpg",
         "https://webimg.jestina.co.kr/UpData2/item/G2000025104/20220321143919ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 3090000,
       "description": {
         "material": "Gold 14K",
@@ -216,7 +314,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024324/20210618095702ZM.jpg",
         "https://webimg.jestina.co.kr/UpData2/item/G2000024324/20210512113358ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 4390000,
       "description": {
         "material": "Gold 14K",
@@ -232,7 +335,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024255/20210420145209ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000024255/20210420145210ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 7290000,
       "description": {
         "material": "Gold 14K",
@@ -248,7 +356,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000023712/20201123153818ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000023712/20201123154345ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 1490000,
       "description": {
         "material": "Gold 14K",
@@ -264,7 +377,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000025043/20220228111052ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000025043/20220228111612ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 1050000,
       "description": {
         "material": "Gold 14K",
@@ -280,7 +398,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024977/20220126175656ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000024977/20220126175657ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 10590000,
       "description": {
         "material": "Gold 14K",
@@ -296,7 +419,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024926/20220113090730ZM.jpg",
         "https://webimg.jestina.co.kr/UpData2/item/G2000024926/20220113090448ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 11290000,
       "description": {
         "material": "Gold 14K",
@@ -312,7 +440,12 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000025103/20220321143657ZM.jpg",
         "https://webimg.jestina.co.kr/UpData2/item/G2000025103/20220321143657ZM.png"
       ],
-      "size": [48, 50, 52, 54],
+      "size": [
+        48,
+        50,
+        52,
+        54
+      ],
       "price": 3290000,
       "description": {
         "material": "Gold 14K",
@@ -328,7 +461,9 @@
         "https://product.hstatic.net/200000103143/product/391157c00_v4_rgb_8db9418fc0484558b7ec9433bc7da9a0_master.jpg",
         "https://product.hstatic.net/200000103143/product/391157c00_v2_rgb_b436e177c592474488dfa28187c85367_master.jpg"
       ],
-      "size": [50],
+      "size": [
+        50
+      ],
       "price": 4890000,
       "description": {
         "material": "Silver",
@@ -344,7 +479,9 @@
         "https://product.hstatic.net/200000103143/product/anyconv.com__570_e4d802fc04404205bc29e76674a0d931_master.png",
         "https://product.hstatic.net/200000103143/product/anyconv.com__571_13980cd5fc4044b48ffc899523cd76fb_master.png"
       ],
-      "size": [45],
+      "size": [
+        45
+      ],
       "price": 4250000,
       "description": {
         "material": "14k Rose gold-plated",
@@ -360,7 +497,9 @@
         "https://product.hstatic.net/200000103143/product/anyconv.com__570_e4d802fc04404205bc29e76674a0d931_master.png",
         "https://product.hstatic.net/200000103143/product/anyconv.com__571_13980cd5fc4044b48ffc899523cd76fb_master.png"
       ],
-      "size": [50],
+      "size": [
+        50
+      ],
       "price": 2950000,
       "description": {
         "material": "Bạc đính đá ",
@@ -376,7 +515,9 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000025139/20220324140623ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000025139/20220324140908ZM.png"
       ],
-      "size": [50],
+      "size": [
+        50
+      ],
       "price": 2950000,
       "description": {
         "material": "Vàng 14K",
@@ -392,7 +533,9 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000025137/20220324135559ZM.png",
         "https://webimg.jestina.co.kr/UpData2/item/G2000025137/20220324135844ZM.png"
       ],
-      "size": [50],
+      "size": [
+        50
+      ],
       "price": 8950000,
       "description": {
         "material": "Vàng 14K",
@@ -415,7 +558,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7190000,
           "description": {
             "material": "Gold 14K",
@@ -431,7 +579,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000023900/20210205115907ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000023900/20210205120143ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 6190000,
           "description": {
             "material": "Gold 14K",
@@ -447,7 +600,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 6490000,
           "description": {
             "material": "Gold 14K",
@@ -464,7 +622,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025082/20220311093607ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025082/20220311093608ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7490000,
           "description": {
             "material": "Gold 14K",
@@ -481,7 +644,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 8490000,
           "description": {
             "material": "Gold 14K",
@@ -504,7 +672,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000022471/20200114093223ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000022471/20200115103941ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 4490000,
           "description": {
             "material": "Gold 14K",
@@ -520,7 +693,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024761/20211007135114ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024761/20211007150140ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 5090000,
           "description": {
             "material": "Gold 14K",
@@ -536,7 +714,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20210812111447ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20211112093451ZM.jpg"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 9090000,
           "description": {
             "material": "Gold 14K",
@@ -552,7 +735,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20210812111447ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20211112093451ZM.jpg"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 9090000,
           "description": {
             "material": "Gold 14K",
@@ -568,7 +756,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20210812111447ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024540/20211112093451ZM.jpg"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 9090000,
           "description": {
             "material": "Gold 14K",
@@ -591,7 +784,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7990000,
           "description": {
             "material": "Gold 14K",
@@ -606,7 +804,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025094/20220513091734ZM.jpg",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025094/20220317144321ZM.jpg"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 10090000,
           "description": {
             "material": "Gold 14K",
@@ -622,7 +825,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025104/20220321143920ZM.jpg",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025104/20220321143919ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 3090000,
           "description": {
             "material": "Gold 14K",
@@ -637,7 +845,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024324/20210618095702ZM.jpg",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024324/20210512113358ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 4390000,
           "description": {
             "material": "Gold 14K",
@@ -653,7 +866,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024255/20210420145209ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024255/20210420145210ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7290000,
           "description": {
             "material": "Gold 14K",
@@ -676,7 +894,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000023712/20201123153818ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000023712/20201123154345ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 1490000,
           "description": {
             "material": "Gold 14K",
@@ -692,7 +915,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025043/20220228111052ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025043/20220228111612ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 1050000,
           "description": {
             "material": "Gold 14K",
@@ -708,7 +936,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024977/20220126175656ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024977/20220126175657ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 10590000,
           "description": {
             "material": "Gold 14K",
@@ -724,7 +957,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024926/20220113090730ZM.jpg",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024926/20220113090448ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 11290000,
           "description": {
             "material": "Gold 14K",
@@ -740,7 +978,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025103/20220321143657ZM.jpg",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025103/20220321143657ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 3290000,
           "description": {
             "material": "Gold 14K",
@@ -756,7 +999,9 @@
             "https://product.hstatic.net/200000103143/product/391157c00_v4_rgb_8db9418fc0484558b7ec9433bc7da9a0_master.jpg",
             "https://product.hstatic.net/200000103143/product/391157c00_v2_rgb_b436e177c592474488dfa28187c85367_master.jpg"
           ],
-          "size": [50],
+          "size": [
+            50
+          ],
           "price": 4890000,
           "description": {
             "material": "Silver",
@@ -772,7 +1017,9 @@
             "https://product.hstatic.net/200000103143/product/anyconv.com__570_e4d802fc04404205bc29e76674a0d931_master.png",
             "https://product.hstatic.net/200000103143/product/anyconv.com__571_13980cd5fc4044b48ffc899523cd76fb_master.png"
           ],
-          "size": [45],
+          "size": [
+            45
+          ],
           "price": 4250000,
           "description": {
             "material": "14k Rose gold-plated",
@@ -788,7 +1035,9 @@
             "https://product.hstatic.net/200000103143/product/anyconv.com__570_e4d802fc04404205bc29e76674a0d931_master.png",
             "https://product.hstatic.net/200000103143/product/anyconv.com__571_13980cd5fc4044b48ffc899523cd76fb_master.png"
           ],
-          "size": [50],
+          "size": [
+            50
+          ],
           "price": 2950000,
           "description": {
             "material": "Bạc đính đá ",
@@ -804,7 +1053,9 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025139/20220324140623ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025139/20220324140908ZM.png"
           ],
-          "size": [50],
+          "size": [
+            50
+          ],
           "price": 2950000,
           "description": {
             "material": "Vàng 14K",
@@ -820,7 +1071,9 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025137/20220324135559ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025137/20220324135844ZM.png"
           ],
-          "size": [50],
+          "size": [
+            50
+          ],
           "price": 8950000,
           "description": {
             "material": "Vàng 14K",
@@ -846,7 +1099,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7190000,
           "description": {
             "material": "Gold 14K",
@@ -862,7 +1120,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7990000,
           "description": {
             "material": "Gold 14K",
@@ -878,7 +1141,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 6490000,
           "description": {
             "material": "Gold 14K",
@@ -895,7 +1163,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 8490000,
           "description": {
             "material": "Gold 14K",
@@ -919,7 +1192,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7190000,
           "description": {
             "material": "Gold 14K",
@@ -935,7 +1213,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7990000,
           "description": {
             "material": "Gold 14K",
@@ -951,7 +1234,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 6490000,
           "description": {
             "material": "Gold 14K",
@@ -968,7 +1256,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 8490000,
           "description": {
             "material": "Gold 14K",
@@ -992,7 +1285,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7190000,
           "description": {
             "material": "Gold 14K",
@@ -1008,7 +1306,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7990000,
           "description": {
             "material": "Gold 14K",
@@ -1024,7 +1327,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 6490000,
           "description": {
             "material": "Gold 14K",
@@ -1041,7 +1349,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 8490000,
           "description": {
             "material": "Gold 14K",
@@ -1065,7 +1378,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7190000,
           "description": {
             "material": "Gold 14K",
@@ -1081,7 +1399,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7990000,
           "description": {
             "material": "Gold 14K",
@@ -1097,7 +1420,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 6490000,
           "description": {
             "material": "Gold 14K",
@@ -1114,7 +1442,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 8490000,
           "description": {
             "material": "Gold 14K",
@@ -1138,7 +1471,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520174912ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7190000,
           "description": {
             "material": "Gold 14K",
@@ -1154,7 +1492,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.jpg",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025163/20220405175709ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 7990000,
           "description": {
             "material": "Gold 14K",
@@ -1170,7 +1513,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144736ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 6490000,
           "description": {
             "material": "Gold 14K",
@@ -1187,7 +1535,12 @@
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329092811ZM.png",
             "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
           ],
-          "size": [48, 50, 52, 54],
+          "size": [
+            48,
+            50,
+            52,
+            54
+          ],
           "price": 8490000,
           "description": {
             "material": "Gold 14K",

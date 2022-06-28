@@ -1,0 +1,21 @@
+.new-bill-detail-product-name{
+    width: 45%;
+    text-align: left;
+}
+.new-bill-detail-product-price{
+    width: 18%;
+    text-align: center;
+}
+.new-bill-detail-quantity{
+    width: 10%;
+    text-align: center;
+}
+.new-bill-detail-temp-price{
+    width: 25%;
+    text-align: right;
+}
+.new-bill-detail-address-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

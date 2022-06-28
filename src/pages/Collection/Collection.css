@@ -20,7 +20,7 @@
 }
 .new-collection-content-top-bar{
     display: flex;
-    background-color: #FFB2B8;
+    background-color: var(--main-color);
     height: 50px;
     justify-content: center;
     align-items: center;

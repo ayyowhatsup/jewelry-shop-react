@@ -6,16 +6,19 @@ import HomePage from './pages/HomePage/HomePage';
 
 
 
+
 function App() {
     const outlet = useOutlet();
-    return(
+
+    return (
         <>
-            <Header/>        
+            <Header />
             {outlet || <HomePage></HomePage>}
-            <Footer></Footer> 
+            <Footer></Footer>
         </>
+
     )
-  
+
 }
 
 export default App;

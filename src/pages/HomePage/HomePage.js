@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import {} from "./HomePage.css";
-
+import {API_URL} from './../../const'
 function HomePage() {
   const [collections, setCollections] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/collection")
+    fetch(API_URL+"/collection")
       .then((res) => res.json())
       .then((collections) => {
         setCollections(collections);
@@ -15,19 +15,27 @@ function HomePage() {
 
   const [categories, setCategories] = useState([])
   useEffect(() => {
-    fetch('http://localhost:3000/jewelryCategory')
+    fetch(API_URL+'/jewelryCategory')
       .then(res => res.json())
       .then(categories => {
         setCategories(categories)
       })
   }, [])
 
+  useEffect(()=>{
+    const intervalId = setInterval(()=>{
+      setSlideIndex(prv => prv===4?0:prv+1)
+    },3000)
+    
+    return () => clearInterval(intervalId)
+  },[])
+
   return (
     <div className="new-homepage">
       <div className="new-homepage-slider">
         <div className="new-homepage-slider-slides">
           {collections.slice(0, 5).map((collection, index) => (
-            <Link
+            <Link key={collection.id}
               to={`/collection/${collection.id}`}
               style={
                 index === 0 ? { marginLeft: "-" + 20 * slideIndex + "%" } : {}
@@ -41,13 +49,13 @@ function HomePage() {
         <div className="new-homepage-slider-controller-wrapper">
           <div className="new-homepage-slider-controller">
             {collections.slice(0, 5).map((collection, index) => (
-              <div
+              <div key={collection.id}
                 style={
                   index === slideIndex ? { backgroundColor: "#FFB2B8" } : {}
                 }
                 className="new-homepage-slider-controller-bullet"
                 onClick={() => setSlideIndex(index)}
-              />
+              ></div>
             ))}
           </div>
         </div>
@@ -78,7 +86,7 @@ function HomePage() {
         <div className="new-homepage-category-introduce">
             <h2>Khám phá thế giới trang sức tuyệt mỹ</h2>
             {categories.map((category,index)=>(
-              <Link to={`jewelry-category/${category.id}`} className="new-homepage-category-wrapper collection-link">
+              <Link key={category.id} to={`jewelry-category/${category.id}`} className="new-homepage-category-wrapper collection-link">
                 <div>
                   <img className="new-homepage-category-image"src={category.items[0].image[1]} alt="" />
                 </div>
