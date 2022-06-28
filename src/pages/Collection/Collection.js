@@ -3,12 +3,12 @@ import { Link, useParams } from 'react-router-dom'
 import { } from './Collection.css'
 import {API_URL} from './../../const'
 
-function Collection(props) {
+function Collection() {
     const { collectionId } = useParams()
     const [collection, setCollection] = useState({items:[]})
     const [items, setItems] = useState([])
     useEffect(() => {
-        fetch(API_URL+`/${props.type}/${collectionId}`)
+        fetch(API_URL+`/collection/${collectionId}`)
             .then(res => {
                 if (res.ok) {
                     return res.json()
@@ -16,7 +16,12 @@ function Collection(props) {
             })
             .then(collection => {
                 setCollection(collection)
-                setItems(collection.items)
+                Promise.all(collection.items.map(itemId =>{
+                    return fetch(API_URL + `/jewelry/${itemId}`)
+                    .then(res => res.json())
+                    .then(item => item)
+                })).then(sth => setItems(sth))
+                
             })
     }, [collectionId])
 

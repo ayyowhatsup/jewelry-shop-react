@@ -103,3 +103,11 @@
     width: 100%;
     position: absolute;
 }
+.new-homepage-iu-video{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 900px;
+    margin-top: 50px;
+}

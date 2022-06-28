@@ -3,23 +3,55 @@ import { Link } from "react-router-dom";
 import {} from "./HomePage.css";
 import {API_URL} from './../../const'
 function HomePage() {
-  const [collections, setCollections] = useState([]);
+  const [collections, setCollections] = useState([])
   useEffect(() => {
-    fetch(API_URL+"/collection")
-      .then((res) => res.json())
-      .then((collections) => {
-        setCollections(collections);
-      });
-  }, []);
+    fetch(API_URL + '/collection?type=collection')
+      .then(res => res.json())
+      .then(categories => {
+          Promise.all(categories.map((category)=>{
+            return Promise.all(category.items.map(itemId => {
+              return fetch(API_URL + `/jewelry/${itemId}`)
+              .then(res=>res.json())
+              .then(item => {
+                return item
+              })
+            }))
+            .then(sth => {   
+              category.items = sth           
+              return category
+            })
+            
+          })
+          )
+          .then(sth => setCollections(sth))
+        }
+      )
+  }, [])
   const [slideIndex, setSlideIndex] = useState(0);
 
   const [categories, setCategories] = useState([])
   useEffect(() => {
-    fetch(API_URL+'/jewelryCategory')
+    fetch(API_URL + '/collection?type=jewelryCategory')
       .then(res => res.json())
       .then(categories => {
-        setCategories(categories)
-      })
+          Promise.all(categories.map((category)=>{
+            return Promise.all(category.items.map(itemId => {
+              return fetch(API_URL + `/jewelry/${itemId}`)
+              .then(res=>res.json())
+              .then(item => {
+                return item
+              })
+            }))
+            .then(sth => {   
+              category.items = sth           
+              return category
+            })
+            
+          })
+          )
+          .then(sth => setCategories(sth))
+        }
+      )
   }, [])
 
   useEffect(()=>{
@@ -86,13 +118,16 @@ function HomePage() {
         <div className="new-homepage-category-introduce">
             <h2>Khám phá thế giới trang sức tuyệt mỹ</h2>
             {categories.map((category,index)=>(
-              <Link key={category.id} to={`jewelry-category/${category.id}`} className="new-homepage-category-wrapper collection-link">
+              <Link key={category.id} to={`collection/${category.id}`} className="new-homepage-category-wrapper collection-link">
                 <div>
                   <img className="new-homepage-category-image"src={category.items[0].image[1]} alt="" />
                 </div>
                 <span className="new-homepage-category-title">{category.name}</span>
               </Link>
             ))}
+        </div>
+        <div className="new-homepage-iu-video">
+        <iframe width="1200" height="700" src="https://www.youtube.com/embed/BvIjnWCD9XQ" title="[제이에스티나] Go For It with 아이유" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
