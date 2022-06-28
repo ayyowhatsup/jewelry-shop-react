@@ -11,22 +11,53 @@ function Header() {
 
   const [categories, setCategories] = useState([])
   useEffect(() => {
-    fetch(API_URL + '/jewelryCategory')
+    fetch(API_URL + '/collection?type=jewelryCategory')
       .then(res => res.json())
       .then(categories => {
-        setCategories(categories)
-      })
+          Promise.all(categories.map((category)=>{
+            return Promise.all(category.items.map(itemId => {
+              return fetch(API_URL + `/jewelry/${itemId}`)
+              .then(res=>res.json())
+              .then(item => {
+                return item
+              })
+            }))
+            .then(sth => {   
+              category.items = sth           
+              return category
+            })
+            
+          })
+          )
+          .then(sth => setCategories(sth))
+        }
+      )
   }, [])
 
   const [collections, setCollections] = useState([])
   useEffect(() => {
-    fetch(API_URL + '/collection')
+    fetch(API_URL + '/collection?type=collection')
       .then(res => res.json())
-      .then(collections => {
-        setCollections(collections)
-      })
+      .then(categories => {
+          Promise.all(categories.map((category)=>{
+            return Promise.all(category.items.map(itemId => {
+              return fetch(API_URL + `/jewelry/${itemId}`)
+              .then(res=>res.json())
+              .then(item => {
+                return item
+              })
+            }))
+            .then(sth => {   
+              category.items = sth           
+              return category
+            })
+            
+          })
+          )
+          .then(sth => setCollections(sth))
+        }
+      )
   }, [])
-
   const { cart } = useContext(CartContext)
   return (
     <header className="header-wrap">
@@ -56,7 +87,7 @@ function Header() {
                   </li>
                   : <></>
                 }
-                
+
                 <li>
                   <Link className="collection-link" to="/account" title="Cá nhân">
                     CÁ NHÂN
@@ -77,8 +108,8 @@ function Header() {
                 }
                 {auth.user !== null ?
                   <li>
-                    <div className="collection-link" onClick={(e) =>{
-                      auth.signOut(()=>{
+                    <div className="collection-link" onClick={(e) => {
+                      auth.signOut(() => {
                         navigate("/")
                       })
                     }}>
@@ -111,7 +142,7 @@ function Header() {
                   {categories.map(category => (
                     <div key={category.id} className="dropdown-menu-item-wrap">
                       <li className="dropdown-menu-item">
-                        <Link className="collection-link" to={`jewelry-category/${category.id}`}>
+                        <Link className="collection-link" to={`collection/${category.id}`}>
                           {category.name}
                         </Link>
                         <div className="example-product-header">

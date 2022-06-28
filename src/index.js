@@ -30,8 +30,7 @@ root.render(
               <Route path='login' element={<Login></Login>}></Route>
               <Route path='forget-password' element={<ForgetPassword></ForgetPassword>}></Route>
               <Route path='cart' element={<Cart></Cart>}></Route>
-              <Route path='collection/:collectionId' element={<Collection type="collection"></Collection>}></Route>
-              <Route path='jewelry-category/:collectionId' element={<Collection type="jewelryCategory"></Collection>}></Route>
+              <Route path='collection/:collectionId' element={<Collection></Collection>}></Route>
               <Route path='jewelry/:jewelryId' element={<Jewelry></Jewelry>}></Route>
               <Route path='register' element={<Register></Register>}></Route>
               <Route path='*' element={<NotFound></NotFound>}></Route>
