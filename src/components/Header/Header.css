@@ -38,6 +38,8 @@
     border: none;
     padding-bottom: 9px;
     width: 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
 }
 
 .header-search-form {
@@ -51,7 +53,6 @@
 .header {
     position: relative;
     display: block;
-    min-width: 1366px;
     background-color: rgba(255, 255, 255, 0.9)
 }
 .header-wrap{
@@ -82,6 +83,7 @@
     width: 60%;
     margin: 0 auto;
     line-height: 18px;
+    max-width: 1366px;
 }
 
 .logo {
@@ -196,4 +198,24 @@
 }
 .new-jewelry-content-footer-column-title{
     text-align: center;
+}
+
+
+
+@media (min-width: 1366px) and (max-width: 1600px){
+    .header-inner{
+        width: 80%;
+    }
+    .dropdown-menu-item-wrap{
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1366px){
+    .header-inner{
+        width: 90%;
+    }
+    .dropdown-menu-item-wrap{
+        width: 90%;
+    }
 }

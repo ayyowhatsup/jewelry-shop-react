@@ -130,3 +130,21 @@
 .new-jewelry-content-payment-item-size{
     display: block;
 }
+
+@media (min-width: 1366px) and (max-width: 1600px){
+    .new-jewelry-content-wrapper{
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1366px){
+    .new-jewelry-content-wrapper{
+        width: 90%;
+    }
+}
+
+/* @media (max-width: 1366px) {
+    .new-collection-content-item{
+        width: 100%;
+    }
+} */
