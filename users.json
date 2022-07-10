@@ -43,6 +43,19 @@
       "password": "123456",
       "createdAt": 1656411646380,
       "id": 3
+    },
+    {
+      "name": {
+        "firstname": "Dung",
+        "lastname": "Nguyen"
+      },
+      "gender": "male",
+      "dob": "2001-01-01",
+      "email": "dung1@gmail.com",
+      "phonenumber": "1234567890",
+      "password": "123456",
+      "createdAt": 1657434086205,
+      "id": 4
     }
   ]
 }

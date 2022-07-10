@@ -127,7 +127,7 @@ function HomePage() {
             ))}
         </div>
         <div className="new-homepage-iu-video">
-        <iframe width="1200" height="700" src="https://www.youtube.com/embed/BvIjnWCD9XQ" title="[제이에스티나] Go For It with 아이유" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="1200" height="700" src="https://www.youtube.com/embed/BvIjnWCD9XQ" title="[제이에스티나] Go For It with 아이유" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
       </div>
     </div>

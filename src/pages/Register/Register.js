@@ -1,5 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
+import { toast } from 'react-toastify'
 import { } from './Register.css'
 function Register() {
     const navigate = useNavigate()
@@ -25,20 +26,29 @@ function Register() {
             phonenumber: phoneNumber,
             password: passWord,
         }
-        fetch("http://localhost:3000/user/users", {
-            method: 'POST',
+        if (firstName && lastName && email && phoneNumber && passWord) {
+            fetch("http://localhost:3000/user/users", {
+                method: 'POST',
 
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        }).then(response => response.json())
-        .then(data =>
-            {
-                console.log(data)
-                navigate("/login")
-            } 
-        )
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            }).then(response => {
+                if(response.ok) return response
+                return Promise.reject(response)
+            })
+                .then(data => {
+                    toast.success("Đăng ký tài khoản thành công!")
+                    navigate("/login")
+                }
+                ).catch(e => {
+                    toast.error("Email hoặc số điện thoại đã tồn tại!")
+                })
+        } else {
+            toast.warn("Vui lòng điền đầy đủ các trường!")
+        }
+
     }
 
     return (

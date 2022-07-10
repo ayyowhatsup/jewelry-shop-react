@@ -19,3 +19,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Toastify__toast-body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+.Toastify__toast-theme--colored.Toastify__toast--success{
+  background-color: var(--main-color);
+}

@@ -9,7 +9,10 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024351/20210520171056ZM.png"
       ],
       "size": [
-        16,17,18,19
+        16,
+        17,
+        18,
+        19
       ],
       "price": 7190000,
       "description": {
@@ -27,7 +30,10 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000023900/20210205120143ZM.png"
       ],
       "size": [
-        16,17,18,19
+        16,
+        17,
+        18,
+        19
       ],
       "price": 6190000,
       "description": {
@@ -45,7 +51,10 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000024249/20210420144738ZM.png"
       ],
       "size": [
-        16,17,18,19
+        16,
+        17,
+        18,
+        19
       ],
       "price": 6490000,
       "description": {
@@ -64,7 +73,10 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000025082/20220311093608ZM.png"
       ],
       "size": [
-        16,17,18,19
+        16,
+        17,
+        18,
+        19
       ],
       "price": 7490000,
       "description": {
@@ -83,7 +95,10 @@
         "https://webimg.jestina.co.kr/UpData2/item/G2000025154/20220329094157ZM.png"
       ],
       "size": [
-        16,17,18,19
+        16,
+        17,
+        18,
+        19
       ],
       "price": 8490000,
       "description": {
@@ -490,7 +505,9 @@
         "https://product.hstatic.net/200000103143/product/upload_8b7d62c782874d9d979cf89248d289e2_master.jpg"
       ],
       "size": [
-        48,50,52
+        48,
+        50,
+        52
       ],
       "price": 1250000,
       "description": {
@@ -508,7 +525,9 @@
         "https://product.hstatic.net/200000103143/product/upload_c0092c3b198a4c69ad6f8ce2cbe23d8f_master.jpg"
       ],
       "size": [
-        48,50,52
+        48,
+        50,
+        52
       ],
       "price": 2950000,
       "description": {
@@ -526,7 +545,9 @@
         "https://product.hstatic.net/200000103143/product/upload_1443d9a2427d43a489c1891226244f76_master.jpg"
       ],
       "size": [
-        50,52,54
+        50,
+        52,
+        54
       ],
       "price": 1650000,
       "description": {
@@ -542,14 +563,29 @@
       "name": "Vòng tay",
       "type": "jewelryCategory",
       "description": "Không chỉ là chiếc vòng tay đơn thuần mà còn là biểu tượng phong cách riêng để tạo ra dấu ấn của bản thân. Đa dạng về vật liệu như bạc sterling, vàng 14K, mạ vàng hồng hoặc phối da chắc chắn sẽ tôn thêm nét thanh lịch cho bạn.",
-      "items": [1,2,3,4,5]
+      "items": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     },
     {
       "id": "nhan",
       "name": "Nhẫn",
       "type": "jewelryCategory",
       "description": "",
-      "items": [6,7,8,9,10,26,27,28]
+      "items": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        26,
+        27,
+        28
+      ]
     },
     {
       "id": "hoa-tai",
@@ -557,7 +593,11 @@
       "type": "jewelryCategory",
       "description": "",
       "items": [
-        11,12,13,14,15
+        11,
+        12,
+        13,
+        14,
+        15
       ]
     },
     {
@@ -565,14 +605,33 @@
       "name": "Dây chuyền",
       "type": "jewelryCategory",
       "description": "",
-      "items": [16,17,18,19,20,21,22,23,24,25]
-    },{
+      "items": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
       "id": "go-for-it",
       "name": "Go For It",
       "type": "collection",
       "image": "https://webimg.jestina.co.kr/UpData2/display/front-promotion/433/thumb/20220617153059.jpg",
       "description": "",
-      "items": [2,10,9,8,18,22]
+      "items": [
+        2,
+        10,
+        9,
+        8,
+        18,
+        22
+      ]
     },
     {
       "id": "the-best-collection",
@@ -580,7 +639,13 @@
       "type": "collection",
       "image": "https://firebasestorage.googleapis.com/v0/b/instantmessages-c52b8.appspot.com/o/images%2F20220513154126.jpg?alt=media&token=b7334837-4cd8-46aa-b55b-ba5d76c8a107",
       "description": "",
-      "items": [1,12,11,6,7]
+      "items": [
+        1,
+        12,
+        11,
+        6,
+        7
+      ]
     },
     {
       "id": "2022-hip-summer",
@@ -588,7 +653,13 @@
       "type": "collection",
       "image": "https://firebasestorage.googleapis.com/v0/b/instantmessages-c52b8.appspot.com/o/images%2F20220512172651.jpg?alt=media&token=31b5a541-dbca-4172-a999-f16773fa63a8",
       "description": "",
-      "items": [4,6,23,11,18]
+      "items": [
+        4,
+        6,
+        23,
+        11,
+        18
+      ]
     },
     {
       "id": "happy-j-week",
@@ -596,7 +667,13 @@
       "type": "collection",
       "image": "https://firebasestorage.googleapis.com/v0/b/instantmessages-c52b8.appspot.com/o/images%2F20220509093212.jpg?alt=media&token=b562b34c-29f5-4b37-bdf9-8eb0680b3f3c",
       "description": "",
-      "items": [13,23,2,8,9]
+      "items": [
+        13,
+        23,
+        2,
+        8,
+        9
+      ]
     },
     {
       "id": "gift-for-lovers",
@@ -604,7 +681,14 @@
       "type": "collection",
       "image": "https://firebasestorage.googleapis.com/v0/b/instantmessages-c52b8.appspot.com/o/images%2F20220429163613.jpg?alt=media&token=1c89cfd3-45d1-4f52-9610-6c7b4cd7c037",
       "description": "",
-      "items": [3,6,14,18,7,1]
+      "items": [
+        3,
+        6,
+        14,
+        18,
+        7,
+        1
+      ]
     },
     {
       "id": "happy-married",
@@ -612,7 +696,13 @@
       "type": "collection",
       "image": "https://firebasestorage.googleapis.com/v0/b/instantmessages-c52b8.appspot.com/o/images%2F20220512182453.jpg?alt=media&token=3e6720a3-6a7a-454f-ab72-504d62417544",
       "description": "",
-      "items": [9,5,17,19,13]
+      "items": [
+        9,
+        5,
+        17,
+        19,
+        13
+      ]
     }
   ],
   "orders": [
@@ -770,6 +860,21 @@
       "address": "Hai Duong",
       "createdAt": 1656413220342,
       "id": 6
+    },
+    {
+      "userid": 1,
+      "products": [
+        {
+          "productId": 2,
+          "size": 16,
+          "quantity": 3
+        }
+      ],
+      "price": 18570000,
+      "status": "Đặt hàng thành công",
+      "address": "Hai Duong",
+      "createdAt": 1657435080781,
+      "id": 7
     }
   ]
 }

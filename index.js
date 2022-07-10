@@ -20,6 +20,17 @@ server.use(jsonServer.bodyParser)
 server.use((req, res, next) => {
     if (req.method === 'POST') {
         req.body.createdAt = Date.now()
+        if (req.url === '/user/users') {
+            const data = req.body
+
+            if (checkEmailOrPhoneExisted(data.email, data.phonenumber) !== undefined) {
+                const status = 400
+                const message = 'Email or phoneNumber is existed'
+                res.status(status).json({ status, message })
+                return
+            }
+
+        }
     }
     // Continue to JSON Server router
     next()
@@ -50,5 +61,10 @@ server.post('/auth/login', (req, res) => {
 function authenticate({ email, password }) {
     return userdb.users.find((element) => element.email == email && element.password == password)
 }
+
+function checkEmailOrPhoneExisted(email, phoneNumber) {
+    return userdb.users.find((element) => element.email == email || element.phonenumber == phoneNumber)
+}
+
 
 

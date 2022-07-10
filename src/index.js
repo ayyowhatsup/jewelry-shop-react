@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -12,7 +15,7 @@ import Jewelry from './pages/Jewelry/Jewelry';
 import NotFound from './pages/NotFound/NotFound';
 import Cart from './pages/Cart/Cart';
 import RequireAuth from './RequireAuth';
-import Payment from "./Payment/Payment"
+import Payment from "./pages/Payment/Payment"
 import { UserProvider } from './UserContext';
 import { CartProvider } from './CartContext';
 import Account from './pages/Account/Account';
@@ -25,6 +28,18 @@ root.render(
     <BrowserRouter>
       <UserProvider>
         <CartProvider>
+          <ToastContainer
+            position="top-right"
+            autoClose={3000}
+            hideProgressBar={false}
+            newestOnTop
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme='colored'
+          />
           <Routes>
             <Route path='/' element={<App />}>
               <Route path='login' element={<Login></Login>}></Route>

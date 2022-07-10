@@ -1,8 +1,10 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import {} from "./Login.css";
+import { } from "./Login.css";
 import UserContext from "./../../UserContext"
+import { toast } from 'react-toastify';
 
+import 'react-toastify/dist/ReactToastify.css';
 function Login() {
   const navigate = useNavigate();
   const location = useLocation()
@@ -15,11 +17,16 @@ function Login() {
     e.preventDefault()
     let email = document.getElementById("email").value
     let password = document.getElementById("password").value
-    
 
-    auth.signIn(email,password,() =>{
-      navigate(from, { replace: true });
-    })
+    if(email&&password){
+      auth.signIn(email, password, () => {
+        navigate(from, { replace: true });
+      })
+    }else{
+      toast.warn("Vui lòng điền đầy đủ các trường")
+    }
+
+    
   }
 
   return (
@@ -38,7 +45,7 @@ function Login() {
       </div>
       <div className="new-login-content">
         <div className="new-login-content-warp">
-          <div style={{display:'flex',alignItems:'center',marginBottom:'80px'}}>
+          <div style={{ display: 'flex', alignItems: 'center', marginBottom: '80px' }}>
             <div
               style={{
                 background:
@@ -46,20 +53,20 @@ function Login() {
                 display: "inline-block",
                 width: "36px",
                 height: "36px",
-                
+
               }}
               onClick={() => navigate(-1)}
             ></div>
-            <h1 style={{display:'inline', textAlign:'center',flex:1}}>ĐĂNG NHẬP</h1>
+            <h1 style={{ display: 'inline', textAlign: 'center', flex: 1 }}>ĐĂNG NHẬP</h1>
           </div>
           <form onSubmit={handleLogin} className="login-form">
             <input className='login-input' type="text" placeholder="Vui lòng nhập email" id="email"></input>
             <input className='login-input' type="password" placeholder="Vui lòng nhập mật khẩu" id="password"></input>
             <div>
-              <div style={{float:'right',marginBottom:'15px'}}>Quên mật khẩu</div>
+              <div style={{ float: 'right', marginBottom: '15px' }}>Quên mật khẩu</div>
             </div>
             <input type="submit" className="login-input new-login-login-btn" value="Đăng nhập"></input>
-            
+
             <Link to={"/register"} className="login-input new-login-register-btn">
               Đăng kí
             </Link>

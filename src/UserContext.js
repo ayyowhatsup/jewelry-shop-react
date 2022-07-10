@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-
+import { toast } from "react-toastify";
 const UserContext = createContext()
 
 export function UserProvider({ children }) {
@@ -17,11 +17,12 @@ export function UserProvider({ children }) {
             return Promise.reject(res) 
         })
         .then(user => {
+            toast.success('Đăng nhập thành công!');
             setUser(user)
             callback()
         })
         .catch(res =>{
-            alert("Đăng nhập không thành công!")
+            toast.error("Đăng nhập không thành công, Sai email hoặc mật khẩu!")
         })
         
         

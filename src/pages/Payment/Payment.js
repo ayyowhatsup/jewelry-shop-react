@@ -1,17 +1,17 @@
 import { useContext } from "react";
-import CartContext from "./../CartContext";
-import UserContext from "./../UserContext"
+import CartContext from "../../CartContext";
+import UserContext from "../../UserContext"
+import {toast} from 'react-toastify'
 import { Link, useNavigate } from "react-router-dom";
 
 import { } from "./Payment.css";
-import { API_URL } from "../const";
+import { API_URL } from "../../const";
 function Payment() {
   const { cart, setCart } = useContext(CartContext);
   const navigate = useNavigate()
   const auth = useContext(UserContext)
 
   const cartLocal = JSON.parse(localStorage.getItem("j_cart"))
-  console.log(cartLocal);
   const handleSubmit = (e) => {
     const total = cart.reduce(
       (prev, curr) => prev + curr.product.price * curr.quantity,
@@ -20,7 +20,7 @@ function Payment() {
     e.preventDefault()
     const address = document.getElementById('order-address').value
     if (address === "") {
-      alert("Vui lòng điền địa chỉ nhận hàng!")
+      toast.warn('Vui lòng điền địa chỉ nhận hàng!');
     } else {
       fetch(API_URL + '/orders', {
         method: 'POST',
@@ -44,6 +44,7 @@ function Payment() {
       })
       .then(order => {
         setCart([])
+        toast.success("Đặt hàng thành công!")
         localStorage.removeItem("j_cart")
         navigate("/account")
       })

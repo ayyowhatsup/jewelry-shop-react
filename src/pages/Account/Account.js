@@ -8,7 +8,7 @@ function Account() {
   const auth = useContext(UserContext);
   const navigate = useNavigate();
   useEffect(() => {
-    fetch(`http://localhost:3000/api/orders?userid=${auth.user.id}`)
+    fetch(`http://localhost:3000/api/orders?userid=${auth.user.id}&_sort=createdAt&_order=desc`)
       .then((res) => res.json())
       .then((orders) => setOrders(orders));
   }, []);
